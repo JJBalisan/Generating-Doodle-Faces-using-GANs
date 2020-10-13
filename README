@@ -1,0 +1,28 @@
+Run these commands on setup in this order when in a folder containing the code with the faces Data-set:
+
+Faces dataset can be found here (You must be logged onto a google account)
+
+https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap
+
+source /usr/swat/bin/CS63env
+
+To Run the Original Atienza Model
+
+python3 OriginalAtienzaModel.py
+
+To Run the Adapted Atienza Model (Our final successful model)
+
+python3 AdaptedAtienzaModel.py
+
+To Run Our First (Unsuccessful) Model
+
+python3 GAN.py
+
+LoadData contains helper functions, we wrote all except timer.
+
+We strongly recommend you run on a computer with a GPU as this will decrease training from days to minutes.
+
+Decreasing train steps in main will also lead to a quicker run.
+
+A Google Drive Link to download the whole dataset can be found here:
+https://drive.google.com/open?id=17y6mCCiZSG0HQnP_rvYgh5y-GSW7F72b
